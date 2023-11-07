@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+  }
+
+  .top {
+    background-image: url(img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1024px;
+
+    &__title {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-top: 217px;
+    }
+
+    &__text {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px;
+        margin: 32px 0 44px 0;
+    }
+
+    &__text-bold {
+        font-weight: 700;
+    }
+
+    &__button {
+        width: 234px;
+        height: 48px;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border-radius: 30px;
+        background: #9C0332;
+        border: 0;
+        cursor: pointer;
+    }
+  }
+
+  .second {
+    background: #000915;
+    height: 556px;
+  }
+
+  .games {
+    display: flex;
+    gap: 32px;
+
+    &__container {
+        position: relative;
+    }
+
+    &__text {
+        position: absolute;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px;
+        bottom: 32px;
+        left: 32px;
+    }
+  }
