@@ -1,16 +1,19 @@
-@media (max-width: 475px) {
+@media (max-width: 1250px) {
 
     .center {
-        padding-left: 16px;
-        padding-right: 16px;
+        padding-left: 32px;
+        padding-right: 32px;
     }
 
+}
+
+@media (max-width: 600px) {
+
+
     .top {
-        background-image: url(img/bg1_mob.jpg);
         display: flex;
         align-items: center;
         flex-direction: column;
-        height: 735px;
     
         &__title {
             text-align: center;
@@ -29,13 +32,5 @@
     .second {
         height: auto;
       }
-
-    .games {
-        flex-direction: column;
-
-        &__container img{
-            width: 100%;
-        }
-    }
 
 }
