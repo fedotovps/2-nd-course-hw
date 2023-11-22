@@ -41,6 +41,7 @@
         font-weight: 300;
         line-height: 32px;
         margin: 32px 0 44px 0;
+        width: 481px;
     }
 
     &__text-bold {
@@ -66,11 +67,14 @@
   .second {
     background: #000915;
     height: 556px;
+    padding: 128px 0 128px 0;
   }
 
   .games {
     display: flex;
+    justify-content: center;
     gap: 32px;
+    flex-wrap: wrap;
 
     &__container {
         position: relative;
@@ -88,3 +92,6 @@
         left: 32px;
     }
   }
+
+  @import 'mobile';
+  @import 'tablet';

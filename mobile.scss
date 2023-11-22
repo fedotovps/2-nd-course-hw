@@ -1,0 +1,41 @@
+@media (max-width: 475px) {
+
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .top {
+        background-image: url(img/bg1_mob.jpg);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 735px;
+    
+        &__title {
+            text-align: center;
+            font-size: 32px;
+        }
+
+        &__text {
+            text-align: center;
+            font-size: 14px;
+            line-height: 22px; 
+            width: 343px;
+        }
+
+    }
+
+    .second {
+        height: auto;
+      }
+
+    .games {
+        flex-direction: column;
+
+        &__container img{
+            width: 100%;
+        }
+    }
+
+}

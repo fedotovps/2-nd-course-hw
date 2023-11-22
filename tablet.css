@@ -1,0 +1,26 @@
+@media (max-width: 1250px) {
+  .center {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media (max-width: 600px) {
+  .top {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .top__title {
+    text-align: center;
+    font-size: 32px;
+  }
+  .top__text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+    width: 343px;
+  }
+  .second {
+    height: auto;
+  }
+}/*# sourceMappingURL=tablet.css.map */
