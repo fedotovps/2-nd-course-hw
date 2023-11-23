@@ -4,7 +4,19 @@
     padding-right: 32px;
   }
 }
+@media (max-width: 1025px) {
+  .fourth__textSeasons {
+    order: 0;
+  }
+  .fourth__imgSeasons {
+    order: 1;
+  }
+}
 @media (max-width: 600px) {
+  h2 {
+    text-align: center;
+    font-size: 32px;
+  }
   .top {
     display: flex;
     align-items: center;
@@ -22,5 +34,27 @@
   }
   .second {
     height: auto;
+  }
+  .third {
+    justify-content: center;
+  }
+  .third__textSeasons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .third__imgSeasons img {
+    width: 100%;
+  }
+  .fourth {
+    justify-content: center;
+  }
+  .fourth__textSeasons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fourth__imgSeasons img {
+    width: 100%;
   }
 }/*# sourceMappingURL=tablet.css.map */
