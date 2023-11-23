@@ -58,6 +58,10 @@ a {
   background: #9C0332;
   border: 0;
   cursor: pointer;
+  transition: all 0.3s;
+}
+.top__button:hover {
+  background: #800329;
 }
 
 .second {
@@ -74,6 +78,11 @@ a {
 }
 .games__container {
   position: relative;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.games__container:hover {
+  transform: scale(1.05);
 }
 .games__text {
   position: absolute;
