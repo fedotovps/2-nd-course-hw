@@ -11,6 +11,15 @@
     text-decoration: none;
   }
 
+  h2 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
   .center {
     padding-left: calc(50% - 600px);
     padding-right: calc(50% - 600px);
@@ -70,7 +79,6 @@
 
   .second {
     background: #000915;
-    height: 556px;
     padding: 128px 0 128px 0;
   }
 
@@ -99,6 +107,25 @@
         line-height: 32px;
         bottom: 32px;
         left: 32px;
+    }
+  }
+
+  .third {
+    background: #000915;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    row-gap: 64px;
+
+    &__imgSeasons {
+      transition: all 0.3s;
+    }
+
+    &__imgSeasons:hover {
+      transform: scale(1.05);
     }
   }
 
