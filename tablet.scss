@@ -7,6 +7,19 @@
 
 }
 
+@media (max-width: 1025px) {
+   .fourth {
+
+    &__textSeasons {
+      order: 0;
+    }
+
+    &__imgSeasons {
+      order: 1;
+    }
+  }
+}
+
 @media (max-width: 600px) {
 
     h2 {
@@ -38,6 +51,20 @@
       }
     
     .third {
+      justify-content: center;
+
+      &__textSeasons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      &__imgSeasons img {
+        width: 100%;
+      }
+    }
+
+    .fourth {
       justify-content: center;
 
       &__textSeasons {
