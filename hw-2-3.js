@@ -77,3 +77,40 @@ switch (monthNumber) {
     default: console.log('Похоже ты ввел не месяц');
         break;
 }
+
+// Задание 7
+
+let evenNumber = prompt('Пожалуйста, введите любое число');
+
+if (isNaN(evenNumber)) {
+    alert('Нужно ввести именно число');
+} else {
+    if (evenNumber % 2 == 0) {
+        alert('Число четное');
+    } else {
+        alert('Число нечетное');
+    }
+}
+
+// Задание 8
+
+let clientOS = prompt('Какую ОС вы используете?');
+
+if (isNaN(clientOS)) {
+    if (clientOS.toLowerCase().trim() == 'ios') {
+        alert('Установите версию приложения для iOS по ссылке');
+    } else if (clientOS.toLowerCase().trim() == 'android') {
+        alert('Установите версию приложения для Android по ссылке');
+    } else {
+        alert('Поддерживаются только такие ОС как iOS и Android');
+    }
+} else {
+    if (clientOS == 0) {
+        alert('Установите версию приложения для iOS по ссылке');
+    } else if (clientOS == 1) {
+        alert('Установите версию приложения для Android по ссылке');
+    } else {
+        alert('Поддерживаются только такие ОС как iOS и Android');
+    }
+}
+

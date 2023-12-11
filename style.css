@@ -121,6 +121,27 @@ h2 {
   transform: scale(1.05);
 }
 
+.fourth {
+  background: #000915;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  row-gap: 64px;
+}
+.fourth__textSeasons {
+  order: 1;
+}
+.fourth__imgSeasons {
+  transition: all 0.3s;
+  order: 0;
+}
+.fourth__imgSeasons:hover {
+  transform: scale(1.05);
+}
+
 @media (max-width: 475px) {
   .center {
     padding-left: 16px;
@@ -159,6 +180,14 @@ h2 {
     padding-right: 32px;
   }
 }
+@media (max-width: 1025px) {
+  .fourth__textSeasons {
+    order: 0;
+  }
+  .fourth__imgSeasons {
+    order: 1;
+  }
+}
 @media (max-width: 600px) {
   h2 {
     text-align: center;
@@ -191,6 +220,17 @@ h2 {
     align-items: center;
   }
   .third__imgSeasons img {
+    width: 100%;
+  }
+  .fourth {
+    justify-content: center;
+  }
+  .fourth__textSeasons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fourth__imgSeasons img {
     width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
