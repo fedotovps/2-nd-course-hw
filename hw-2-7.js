@@ -104,7 +104,7 @@ function getFruit() {
     } else if (list[0].toLowerCase() == firstElArr.toLowerCase() || list[list.length - 1].toLowerCase() == lastElArr.toLowerCase()) {
         alert('Вы были близки к победе!');
     } else {
-        alert('Ты ответил неверно');
+        alert('Ты ответил неверно..');
     }
 
 }
