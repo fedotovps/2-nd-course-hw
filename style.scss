@@ -129,5 +129,31 @@
     }
   }
 
+  .fourth {
+    background: #000915;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    row-gap: 64px;
+
+    &__textSeasons {
+      order: 1;
+    }
+
+    &__imgSeasons {
+      transition: all 0.3s;
+      order: 0;
+    }
+
+    &__imgSeasons:hover {
+      transform: scale(1.05);
+    }
+  }
+
+
+
   @import 'mobile';
   @import 'tablet';
