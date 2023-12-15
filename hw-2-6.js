@@ -36,7 +36,7 @@ console.log(arr5);
 
 // Задание 6
 
-const arr6 = [9, 8, 7, 'a', 6, 5];
+const arr6 = [9, 8, 7, 'a', 6, 5, 100];
 arr6.sort().pop();
 console.log(arr6);
 
