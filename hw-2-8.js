@@ -102,5 +102,5 @@ function sayHi (name) {
 
 // Нужно изменить код ниже:
 setTimeout(() => {
-    delayForSecond(sayHi('Глеб2'))
+    delayForSecond(() => sayHi('Глеб2'))
 }, 1000);
